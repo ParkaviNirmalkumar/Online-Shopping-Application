@@ -1,0 +1,60 @@
+{
+  "name": "ecart-fronend",
+  "version": "1.0.0",
+  "description": "Online Ecart Frontend Microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "Webpack .",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkaviNirmalkumar/Ecart-Fronend-Microservice.git"
+  },
+  "author": "Parkavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParkaviNirmalkumar/Ecart-Fronend-Microservice/issues"
+  },
+  "homepage": "https://github.com/ParkaviNirmalkumar/Ecart-Fronend-Microservice#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "6.7.3",
+    "svg-url-loader": "8.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "react-loading-skeleton": "^3.1.0",
+    "@babel/runtime": "^7.18.3",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.0",
+    "redux-form": "^8.3.8",
+    "web-vitals": "^2.1.4"
+  }
+}
